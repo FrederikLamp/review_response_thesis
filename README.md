@@ -1,8 +1,7 @@
 This repository holds example python code from the scripts used to fine-tune pretrained transformer models for both text 
 classification and text generation tasks based on Danish review data collected from Trustpilot.
 
-The TP_scrape.py and concatenate_reviews.py was used in data collection, and the notebooks were used in classification 
-and text generation tasks, respectively.
+The TP_scrape.py and concatenate_reviews.py was used in data collection, and the notebooks were used in the text classification, text generation, and dataset descriptive statistics tasks, respectively.
 
 
 
