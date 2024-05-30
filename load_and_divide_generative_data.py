@@ -61,6 +61,9 @@ with open("new_corpus_val_final.txt", "w") as f:
     for line in val_data:
         f.write(line + "\n")
 
+with open("new_corpus_test_final.txt", "w") as f:
+    for line in test_data:
+        f.write(line + "\n")
         
 
 #save the training and validation data to separate pickle files

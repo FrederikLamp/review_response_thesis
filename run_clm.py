@@ -30,14 +30,13 @@ import warnings
 from dataclasses import dataclass, field
 from itertools import chain
 from typing import Optional
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 import numpy as np
 import datasets
 import evaluate
 import torch
 from datasets import load_dataset, load_metric
-from nltk.translate.bleu_score import sentence_bleu
 
 
 import transformers
